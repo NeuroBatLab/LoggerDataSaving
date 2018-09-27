@@ -1,9 +1,10 @@
 function save_audiologger_data
 
 ALString = 'AUDIOLOG';
-base_dir = 'C:\Maimon\acoustic_recording\'; % base saving directory
-dateStr = datestr(date,'mmddyyyy'); % date string for saving
-script_dir = 'C:\Maimon\acoustic_recording\scripts\'; % location of .bat file 
+base_dir = []; % base saving directory
+date_str_format = 'mmddyyyy';
+dateStr = datestr(date,date_str_format); % date string for saving
+script_dir = []; % location of .bat file 
 status = dos([script_dir 'list_drive_letters.bat']);
 if status
     disp('error getting drive names')

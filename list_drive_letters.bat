@@ -1,5 +1,5 @@
 @echo off
-SET NAMES="C:\Maimon\acoustic_recording\scripts\drivenames.txt"
+:: SET NAMES="drivenames.txt" --- Need to set this variable to a full path where you want the drivenames temporary file to be saved --- 
 
 del %NAMES%
 
