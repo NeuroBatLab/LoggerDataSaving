@@ -1,5 +1,6 @@
 @echo off
-:: SET NAMES="drivenames.txt" --- Need to set this variable to a full path where you want the drivenames temporary file to be saved --- 
+:: Need to set this variable to a full path where you want the drivenames temporary file to be saved and uncomment the line
+:: SET NAMES="drivenames.txt" 
 
 del %NAMES%
 
