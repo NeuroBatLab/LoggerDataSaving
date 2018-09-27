@@ -1,10 +1,10 @@
 function save_audiologger_data
 
 ALString = 'AUDIOLOG';
-base_dir = []; % base saving directory
-date_str_format = 'mmddyyyy';
+base_dir = 'C:\Users\tobias\Desktop\piezo\'; % base saving directory
+date_str_format = 'yymmdd';
 dateStr = datestr(date,date_str_format); % date string for saving
-script_dir = []; % location of .bat file 
+script_dir = 'C:\Users\tobias\Documents\GitHub\LoggerDataSaving\'; % location of .bat file 
 status = dos([script_dir 'list_drive_letters.bat']);
 if status
     disp('error getting drive names')

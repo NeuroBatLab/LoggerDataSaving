@@ -1,5 +1,5 @@
 @echo off
-:: SET NAMES="drivenames.txt" --- Need to set this variable to a full path where you want the drivenames temporary file to be saved --- 
+SET NAMES="C:\Users\tobias\Documents\GitHub\LoggerDataSaving\drivenames.txt"
 
 del %NAMES%
 
